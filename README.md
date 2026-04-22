@@ -127,20 +127,10 @@ src/
 │   └── index.tsx             # Main page
 └── types/
     └── index.ts              # Shared TypeScript types
+
 ```
+
+## 🚀 Live Demo
 
 ---
-
-## Deploying to Vercel
-
-```bash
-# Install Vercel CLI
-npm i -g vercel
-
-# Deploy
-vercel
-
-# Or connect your GitHub repo at vercel.com and it deploys on push
-```
-
-> **Note**: On Vercel, the SQLite database lives in `/tmp` and will be lost on redeployment or function cold starts. For a persistent deployment, replace `better-sqlite3` in `src/lib/db.ts` with [Turso](https://turso.tech/) (libsql, SQLite-compatible) or another hosted DB.
+https://expense-tracker-ezyj.onrender.com/
