@@ -18,7 +18,7 @@
     "decimal.js": "^10.4.3"
   },
   "engines": {
-    "node": "18.x"
+    "node": "24.x"
   },
   "devDependencies": {
     "@types/better-sqlite3": "^7.6.10",
