@@ -17,6 +17,9 @@
     "uuid": "^9.0.1",
     "decimal.js": "^10.4.3"
   },
+  "engines": {
+    "node": "18.x"
+  },
   "devDependencies": {
     "@types/better-sqlite3": "^7.6.10",
     "@types/node": "^20.12.7",
